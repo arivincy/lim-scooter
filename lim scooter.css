@@ -1,0 +1,73 @@
+body{
+    background-image: url(../../background.jpg);
+    background-size: cover;
+}
+
+.contenitore{
+   width: 50%;
+   margin: auto;
+   background-color: rgba(0,0,0,0.5);
+   padding: 70px 80px;
+   font-family: "Moderustic", sans-serif;
+   font-style: normal;
+   border-radius: 5px;
+}
+
+header{
+    text-align: center;
+    color: rgb(21, 234, 21);
+    font-size: x-large;
+}
+
+img{
+   width: 25%;
+   height: 25%;
+}
+
+header>p{
+   margin-bottom: 0.5%;
+   margin-top: 0.5%;
+}
+
+header>div{
+    background-color: rgb(21, 234, 21);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+section{
+    color: white;
+    margin-bottom: 20px;
+}
+
+section>span{
+    display: inline-block;
+    font-size: large;
+}
+
+section>div{
+    font-size: small;
+    font-weight: lighter;
+    margin: 4px;
+}
+
+.barra-giallo{
+    background-color: orange;
+    width: 50%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.barra-verde{
+    background-color: rgb(26, 203, 26);
+    width: 70%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.barra-rosso{
+    background-color: rgb(165, 9, 11);
+    width: 20%;
+    height: 25px;
+    border-radius: 5px;
+}
